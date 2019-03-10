@@ -34,7 +34,7 @@ class TransferRecipientController extends Controller
         //get all Tranfer Recipient
 
         $thePaystack = new Paystack();
-        $theTransferRecipient = $thePaystack->listTransferRecipient();
+        $theTransferRecipient = $thePaystack->listTransferRecipient(null, null);
 
         return Datatables::of($theTransferRecipient['data'])
         ->addColumn('action', function ($transferRecipient) {
