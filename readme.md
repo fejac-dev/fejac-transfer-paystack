@@ -1,6 +1,6 @@
 # Fejac Transfers - Paystack
 
-This is a simple implementation of paystack transfer feature using laravel.
+This is a simple implementation of Paystack transfer feature using laravel.
 Paystack is the leading payment gateway/processor in Nigeria and this application is an implementation of their transfer feature.
 I choose to use laravel for this implementation because it is one of the best and powerful PHP framework.
 
@@ -10,7 +10,6 @@ I choose to use laravel for this implementation because it is one of the best an
 * [Laravel](https://laravel.com/docs) - The web framework used
 * [Paystack] (https://developers.paystack.co/docs) - Payment Gateway
 * [unicodeveloper](https://github.com/unicodeveloper/laravel-paystack) - Paystack Library
-
 
 
 
